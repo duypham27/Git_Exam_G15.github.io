@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.contact-info p, .academic p, .skills p {
+    font-weight: bold;
+}
+
+.projects a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
