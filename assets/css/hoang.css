@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    background: rgba(239, 225, 225, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.text-teal-300 {
+    color: #4fd1c5;
+}
+.bg-teal-500 {
+    background-color: #319795;
+}
+.bg-teal-500:hover {
+    background-color: #2c7a7b;
+}
