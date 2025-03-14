@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Văn A - Hồ sơ cá nhân</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2;
+            color: #ff66b2;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1, h2 {
+            color: #ff1493;
+            text-shadow: 2px 2px #ffb6c1;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ffd1dc;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s, background 0.3s;
+        }
+        ul li:hover {
+            transform: scale(1.1);
+            background: #ff99cc;
+        }
+        .contact a {
+            color: #ff1493;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff1493;
+            margin-bottom: 10px;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../assets/images/thu_hoai.jpg" alt="Ảnh đại diện" class="profile-pic">
+        <h1>NÔNG THỊ THU HOÀI</h1>
+        <p>21 tuổi | Sinh viên năm 4 | Đại học Công nghệ TP.HCM</p>
+        
+        <h2>Sở thích</h2>
+        <ul>
+            <li>📖 Đọc sách</li>
+            <li>🎮 Chơi game</li>
+            <li>✈️ Du lịch</li>
+            <li>⚽ Thể thao</li>
+        </ul>
+        
+        <h2>Kỹ năng</h2>
+        <ul>
+            <li>💻 HTML, CSS, JavaScript</li>
+            <li>🔧 PHP, MySQL</li>
+            <li>🐍 Python</li>
+            <li>🚀 Các framework như Laravel, React</li>
+        </ul>
+        
+        <h2>Chứng chỉ học tập</h2>
+        <ul>
+            <li>📜 Chứng chỉ Lập trình Front-end</li>
+            <li>📜 Chứng chỉ Lập trình Back-end</li>
+            <li>📜 Chứng chỉ Kỹ năng mềm</li>
+        </ul>
+        
+        <div class="contact">
+            <h2>Liên hệ</h2>
+            <p>Email: <a href="mailto:nguyenvana@example.com">nguyenvana@example.com</a></p>
+            <p>Số điện thoại: 0123 456 789</p>
+        </div>
+        
+        <p>&copy; 2023 Nguyễn Văn A. Tất cả quyền được bảo lưu.</p>
+    </div>
+</body>
+</html>
